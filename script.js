@@ -3,7 +3,7 @@ let score = 0;
 let playAgain = true;
 
 while (playAgain === true) {
-  const randomNumber = Math.floor(Math.random() * 100) + 1;
+  const randomNumber = Math.floor(Math.random() * 10) + 1;
   const userGuess = prompt("Guess a number between 1 and 10:");
 
   if (userGuess === randomNumber) {
@@ -15,6 +15,7 @@ while (playAgain === true) {
   }
 
   playAgain = confirm("Do you want to play again?");
+  console.log(playAgain)
 
   if (!playAgain); {
     alert(`Game over. Your final score is ${score}.`);
