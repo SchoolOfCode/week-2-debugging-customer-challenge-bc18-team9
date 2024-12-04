@@ -1,8 +1,8 @@
-function gameStart() {
+
 let score = 0;
 let playAgain = true;
 
-while (playAgain === false) 
+while (playAgain === false) {
   const randomNumber = Math.floor(Math.random() * 100) + 1;
   const userGuess = prompt("Guess a number between 1 and 10:");
 
@@ -27,6 +27,8 @@ while (playAgain === false)
 //#3 Need a starting value for score, should be 0
 //#4 On line 13 this should be score-- as otherwise it would keep increasing the players score
 //#5 On line 19 score should equal score and not randomNumber
+
+//#6 Function undefined - check if function required
 
 //Requirements/plan:
 // - We want a game where a player takes a guess at a number between 1 and 10 // complete?
