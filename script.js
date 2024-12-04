@@ -15,9 +15,8 @@ while (playAgain === true) {
   }
 
   playAgain = confirm("Do you want to play again?");
-  console.log(playAgain)
 
-  if (!playAgain); {
+  if (playAgain === false) {
     alert(`Game over. Your final score is ${score}.`);
   }
 }
