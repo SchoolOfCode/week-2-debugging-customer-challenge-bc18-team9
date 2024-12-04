@@ -6,7 +6,7 @@ while (playAgain === true) {
   const randomNumber = Math.floor(Math.random() * 10) + 1;
   const userGuess = prompt("Guess a number between 1 and 10:");
 
-  if (userGuess === randomNumber) {
+  if (userGuess === randomNumber.toString()) {
     alert("Congratulations! You guessed the correct number.");
     score++;
   } else {
