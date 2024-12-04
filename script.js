@@ -21,15 +21,6 @@ while (playAgain === true) {
   }
 }
 
-
-//#1 Create a function
-//#2 Fix random number syntax, should be camel case - line 8 and 12
-//#3 Need a starting value for score, should be 0
-//#4 On line 13 this should be score-- as otherwise it would keep increasing the players score
-//#5 On line 19 score should equal score and not randomNumber
-
-//#6 Function undefined - check if function required
-
 //Requirements/plan:
 // - We want a game where a player takes a guess at a number between 1 and 10 // complete?
 // - You should keep score, and if a player guesses correctly, you should add to the score
