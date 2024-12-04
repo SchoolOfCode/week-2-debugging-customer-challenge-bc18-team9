@@ -1,5 +1,5 @@
 function gameStart() {
-let score;
+let score = 0;
 let playAgain = true;
 
 while (playAgain === false) 
